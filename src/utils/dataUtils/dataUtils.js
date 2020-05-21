@@ -1,13 +1,13 @@
 import { get } from 'lodash';
 
+const getData = (res) => {
+  return get(res, 'data', null);
+};
+
 const getDataList = (res) => {
   const data = getData(res);
 
   return Array.isArray(data) ? data : [];
-};
-
-const getData = (res) => {
-  return get(res, 'data', null);
 };
 
 const getErrorData = (err) => {

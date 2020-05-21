@@ -1,10 +1,10 @@
-import { SET_FAVORITES, SET_THEME_TYPE, SET_TEMPERATURE_UNIT } from 'redux/actionsTypes/SettingsActionsTypes';
+import * as ActionTypes from 'redux/actionsTypes/SettingsActionsTypes';
 import storageUtils from 'utils/storageUtils/storageUtils';
 import temperatureUnits from 'constants/temperatureUnits';
 import storageItems from 'constants/storageItems';
 import themeTypes from 'constants/themeTypes';
 
-const initialState = {
+export const initialState = {
   favorites: storageUtils.getItem(storageItems.FAVORITES, []),
   themeType: storageUtils.getItem(storageItems.THEME_TYPE, themeTypes.LIGHT),
   temperatureUnit: storageUtils.getItem(storageItems.TEMPERATURE_UNIT, temperatureUnits.CELSIUS),
@@ -12,13 +12,13 @@ const initialState = {
 
 export default (state = initialState, action) => {
   switch (action.type) {
-    case SET_FAVORITES:
+    case ActionTypes.SET_FAVORITES:
       return { ...state, favorites: action.favorites };
 
-    case SET_THEME_TYPE:
+    case ActionTypes.SET_THEME_TYPE:
       return { ...state, themeType: action.themeType };
 
-    case SET_TEMPERATURE_UNIT:
+    case ActionTypes.SET_TEMPERATURE_UNIT:
       return { ...state, temperatureUnit: action.temperatureUnit };
 
     default:

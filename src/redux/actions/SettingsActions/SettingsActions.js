@@ -1,24 +1,24 @@
-import { SET_FAVORITES, SET_THEME_TYPE, SET_TEMPERATURE_UNIT } from 'redux/actionsTypes/SettingsActionsTypes';
+import * as ActionTypes from 'redux/actionsTypes/SettingsActionsTypes';
 import { getFavorites } from 'redux/selectors/SettingsSelectors/SettingsSelectors';
 import storageUtils from 'utils/storageUtils/storageUtils';
 import storageItems from 'constants/storageItems';
 
-export const setTemperatureUnit = (unit) => {
-  storageUtils.setItem(storageItems.TEMPERATURE_UNIT, unit);
+export const setTemperatureUnit = (temperatureUnit) => {
+  storageUtils.setItem(storageItems.TEMPERATURE_UNIT, temperatureUnit);
 
-  return { type: SET_TEMPERATURE_UNIT, temperatureUnit: unit };
+  return { type: ActionTypes.SET_TEMPERATURE_UNIT, temperatureUnit };
 };
 
-export const setThemeType = (type) => {
-  storageUtils.setItem(storageItems.THEME_TYPE, type);
+export const setThemeType = (themeType) => {
+  storageUtils.setItem(storageItems.THEME_TYPE, themeType);
 
-  return { type: SET_THEME_TYPE, themeType: type };
+  return { type: ActionTypes.SET_THEME_TYPE, themeType };
 };
 
 export const setFavorites = (favorites) => {
   storageUtils.setItem(storageItems.FAVORITES, favorites);
 
-  return { type: SET_FAVORITES, favorites };
+  return { type: ActionTypes.SET_FAVORITES, favorites };
 };
 
 export const toggleFavoriteLocation = (location) => {

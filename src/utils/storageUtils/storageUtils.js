@@ -17,6 +17,6 @@ const setItem = (key, value) => {
 };
 
 export default {
-  setItem,
   getItem,
+  setItem,
 };
