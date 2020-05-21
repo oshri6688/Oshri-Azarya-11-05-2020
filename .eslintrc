@@ -1,0 +1,17 @@
+{
+  "extends": ["react-app", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "react-hooks/exhaustive-deps": "off",
+    "default-case": "off",
+    "no-unused-vars": "error",
+    "react/self-closing-comp": "error",
+    "import/no-self-import": "error",
+    "import/no-absolute-path": "error",
+    "import/no-mutable-exports": "error",
+    "import/no-duplicates": "error",
+    "import/newline-after-import": "error",
+    "import/order": ["error", { "groups": [["builtin", "external", "internal"], "parent", "sibling", "index"] }]
+  }
+}
