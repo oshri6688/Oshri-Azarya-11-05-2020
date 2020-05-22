@@ -8,7 +8,7 @@ import { StyledLayout, Content } from './Layout.style';
 
 const Layout = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <StyledLayout>
         <Header />
 
