@@ -62,6 +62,7 @@
     "styled-normalize": "^8.0.7"
   },
   "devDependencies": {
+    "@types/jest": "^25.2.3",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "eslint-config-airbnb": "^18.1.0",
