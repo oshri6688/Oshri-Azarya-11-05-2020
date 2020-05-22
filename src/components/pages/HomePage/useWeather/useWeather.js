@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import WeatherServices from 'services/WeatherServices/WeatherServices';
 import useFetchData from 'shared/hooks/useFetchData/useFetchData';
 
