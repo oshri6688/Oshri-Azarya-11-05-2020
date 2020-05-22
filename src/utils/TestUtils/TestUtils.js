@@ -48,3 +48,13 @@ export const mockLocalStorage = () => {
 
   Object.defineProperty(window, 'localStorage', { value: localStorage });
 };
+
+export const createModuleLoader = (requireModule) => () => {
+  let module;
+
+  jest.isolateModules(() => {
+    module = requireModule();
+  });
+
+  return module;
+};
