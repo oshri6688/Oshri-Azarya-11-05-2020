@@ -3,8 +3,8 @@ import { useSelector } from 'react-redux';
 import { ThemeProvider } from 'styled-components';
 import { StylesProvider } from '@material-ui/core/styles';
 import { ThemeProvider as MuiThemeProvider, CssBaseline } from '@material-ui/core';
-import GlobalStyle from 'styles/globalStyle';
-import { getTheme } from 'styles/theme';
+import GlobalStyle from 'styles/globalStyle/globalStyle';
+import { getTheme } from 'styles/theme/theme';
 import Layout from 'components/Layout/Layout';
 import { getThemeType } from 'redux/selectors/SettingsSelectors/SettingsSelectors';
 
