@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "889992e206b8a4c02e741cab5bce9e19",
+    "revision": "fdbe8071490e5ce2299d286a619a772e",
     "url": "/Oshri-Azarya-11-05-2020/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Oshri-Azarya-11-05-2020/static/js/2.2829e72d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "04394b6e46c5f9de834f",
-    "url": "/Oshri-Azarya-11-05-2020/static/js/main.867fe55b.chunk.js"
+    "revision": "c7be670314978f35fbac",
+    "url": "/Oshri-Azarya-11-05-2020/static/js/main.eaa9f7e2.chunk.js"
   },
   {
     "revision": "56b3c6ce8e1e30540ed6",
