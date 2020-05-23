@@ -8,6 +8,18 @@ import DailyForecasts from './DailyForecasts/DailyForecasts';
 import CurrentWeather from './CurrentWeather/CurrentWeather';
 import { StyledWeatherCard, WeatherCardContent, FavoriteButton } from './WeatherCard.style';
 
+const getFavoriteButtonTooltipTitle = (isFavorite) => {
+  let title;
+
+  if (isFavorite) {
+    title = 'Remove from Favorites';
+  } else {
+    title = 'Add to Favorites';
+  }
+
+  return title;
+};
+
 const WeatherCard = ({ weather }) => {
   const { location, currentWeather, dailyForecasts } = weather;
   const isFavorite = useSelector(isFavoriteLocation(location.id));
@@ -19,7 +31,7 @@ const WeatherCard = ({ weather }) => {
 
   return (
     <StyledWeatherCard>
-      <Tooltip title="Add to Favorites">
+      <Tooltip title={getFavoriteButtonTooltipTitle(isFavorite)}>
         <FavoriteButton isFavorite={isFavorite} onClick={onFavoriteButtonClick}>
           <Icons.Favorite fontSize="large" />
         </FavoriteButton>
