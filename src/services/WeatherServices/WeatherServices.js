@@ -8,7 +8,7 @@ export const weatherUrl = 'https://dataservice.accuweather.com';
 export const weatherIconsUrl = 'https://vortex.accuweather.com/adc2010/images/slate/icons';
 
 export const defaultParams = {
-  apikey: 'BFuoqwlacoAXxCR09HfAIG4j8vexFjII',
+  apikey: 'obnJ0GC5Xb2PyL0rpKlnoEAo2ZNgGCZ5',
   language: 'en-us',
 };
 
