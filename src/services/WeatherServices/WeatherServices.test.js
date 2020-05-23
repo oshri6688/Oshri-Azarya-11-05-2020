@@ -199,9 +199,9 @@ describe('WeatherServices', () => {
       ],
     };
 
-    it('should return autocomplete locations', async () => {
+    it('should return five day forecasts', async () => {
       const locationId = 'test-location-id';
-      const expectedConfig = { params: defaultParams };
+      const expectedConfig = { params: { metric: true, ...defaultParams } };
       const expectedUrl = `${weatherUrl}/forecasts/v1/daily/5day/${locationId}`;
       const expectedResult = mockResponseData.DailyForecasts.map((forecastData) => {
         const minCelsius = forecastData.Temperature.Minimum.Value;
