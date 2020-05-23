@@ -64,7 +64,9 @@ const getCurrentWeather = (locationId) => {
 };
 
 const getFiveDayForecasts = (locationId) => {
-  return axios.get(`${weatherUrl}/forecasts/v1/daily/5day/${locationId}`, { params: defaultParams }).then((res) => {
+  const params = { metric: true, ...defaultParams };
+
+  return axios.get(`${weatherUrl}/forecasts/v1/daily/5day/${locationId}`, { params }).then((res) => {
     const data = dataUtils.getData(res);
     const dailyForecastsData = get(data, 'DailyForecasts', []);
 
