@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Oshri-Azarya-11-05-2020/precache-manifest.c7527691324050911908cec8456cb933.js"
+  "/Oshri-Azarya-11-05-2020/precache-manifest.d99c474bbca06ee06c6d8bab21a8de93.js"
 );
 
 self.addEventListener('message', (event) => {
