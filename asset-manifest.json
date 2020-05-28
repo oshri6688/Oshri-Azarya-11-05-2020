@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/Oshri-Azarya-11-05-2020/static/js/main.ca8fc255.chunk.js",
-    "main.js.map": "/Oshri-Azarya-11-05-2020/static/js/main.ca8fc255.chunk.js.map",
-    "runtime-main.js": "/Oshri-Azarya-11-05-2020/static/js/runtime-main.442e0b16.js",
-    "runtime-main.js.map": "/Oshri-Azarya-11-05-2020/static/js/runtime-main.442e0b16.js.map",
-    "static/js/2.2829e72d.chunk.js": "/Oshri-Azarya-11-05-2020/static/js/2.2829e72d.chunk.js",
-    "static/js/2.2829e72d.chunk.js.map": "/Oshri-Azarya-11-05-2020/static/js/2.2829e72d.chunk.js.map",
-    "index.html": "/Oshri-Azarya-11-05-2020/index.html",
-    "precache-manifest.1d3d021a88b2cdeba940d177d4c716ec.js": "/Oshri-Azarya-11-05-2020/precache-manifest.1d3d021a88b2cdeba940d177d4c716ec.js",
-    "service-worker.js": "/Oshri-Azarya-11-05-2020/service-worker.js",
-    "static/js/2.2829e72d.chunk.js.LICENSE.txt": "/Oshri-Azarya-11-05-2020/static/js/2.2829e72d.chunk.js.LICENSE.txt"
+    "main.js": "/herolo-weather/static/js/main.a1056b2d.chunk.js",
+    "main.js.map": "/herolo-weather/static/js/main.a1056b2d.chunk.js.map",
+    "runtime-main.js": "/herolo-weather/static/js/runtime-main.c11780cc.js",
+    "runtime-main.js.map": "/herolo-weather/static/js/runtime-main.c11780cc.js.map",
+    "static/js/2.04d7f2ba.chunk.js": "/herolo-weather/static/js/2.04d7f2ba.chunk.js",
+    "static/js/2.04d7f2ba.chunk.js.map": "/herolo-weather/static/js/2.04d7f2ba.chunk.js.map",
+    "index.html": "/herolo-weather/index.html",
+    "precache-manifest.b0c59a66a94dd0dfb483a378a7b2a9b6.js": "/herolo-weather/precache-manifest.b0c59a66a94dd0dfb483a378a7b2a9b6.js",
+    "service-worker.js": "/herolo-weather/service-worker.js",
+    "static/js/2.04d7f2ba.chunk.js.LICENSE.txt": "/herolo-weather/static/js/2.04d7f2ba.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.442e0b16.js",
-    "static/js/2.2829e72d.chunk.js",
-    "static/js/main.ca8fc255.chunk.js"
+    "static/js/runtime-main.c11780cc.js",
+    "static/js/2.04d7f2ba.chunk.js",
+    "static/js/main.a1056b2d.chunk.js"
   ]
 }
